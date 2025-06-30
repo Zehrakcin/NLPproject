@@ -1,6 +1,6 @@
 
 
-Bu proje, farklı kategorilere ait Türkçe haber metinlerini makine öğrenmesi yöntemleriyle sınıflandırmayı amaçlamaktadır. Metin önişleme, TF-IDF vektörleştirme ve Naive Bayes sınıflandırıcısı kullanılmıştır. Ayrıca, TF-IDF vektörleri PCA ile iki boyuta indirgenerek görselleştirilmiştir.
+Bu proje, farklı kategorilere ait Türkçe haber metinlerini makine öğrenmesi yöntemleriyle sınıflandırmayı amaçlamaktadır. Metin önişlemeden sonra TF-IDF vektörleştirme uygulanmış, Naive Bayes ve SVM algoritmaları ile sınıflandırılmıştır. Ayrıca, TF-IDF vektörleri PCA ile iki boyuta indirgenerek görselleştirilmiştir.
 
 ---
 
@@ -29,4 +29,4 @@ Bu proje, farklı kategorilere ait Türkçe haber metinlerini makine öğrenmesi
    - TF-IDF vektörleri PCA ile 2 boyuta indirildi.
    - Her sınıf için ayrı renklerde scatter plot çizildi.
 5. Modelleme:
-   - Naive Bayes modeli eğitildi ve test edildi.
+   - Naive Bayes ve SVM modeli eğitildi ve test edildi.
